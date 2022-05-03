@@ -1,0 +1,79 @@
+body{
+    background: url(./42848308-abstraite-géométrique-bleu-blanc-fond-web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+   
+}
+.input{
+    padding: 10px 10px ;
+    margin: 15px 10px ;
+    width: 30%;
+    font-size: larger;
+    background: none;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+
+}
+.main{
+    
+    text-align: center;
+
+    
+
+}
+button{
+    width: 15%;
+    padding: 10px 10px;
+    margin: 10px 10px ;
+    font-size: larger;
+    cursor: pointer;
+    transition-duration: 0.4ms;
+    border-radius: 5px;
+    
+}
+button:hover{
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#resetbutton{
+    width: 15%;
+    padding: 10px 10px;
+    margin: 10px 10px ;
+    font-size: larger;
+    
+    border-radius: 5px;
+}
+td{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+  
+    
+}
+
+.outtt{
+    padding: 10px 10px ;
+    display: flex;
+    justify-content: center;
+   
+}
+label{
+    font-size: larger;
+    text-align: left;
+}
+.new{
+    border: none;
+    font-size: larger;
+    padding-right: 30px;
+    font-weight: bold;
+}
